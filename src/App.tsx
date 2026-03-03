@@ -96,7 +96,7 @@ export default function App() {
 
               <Reveal delay={0.2}>
                 <p className="text-xl md:text-2xl text-text-muted mb-12 max-w-2xl leading-relaxed">
-                  Eu ajudo mulheres exaustas a se reconectarem com o próprio eixo e recuperarem a saúde emocional antes do colapso. Um processo terapêutico profundo, sistêmico e sem promessas mágicas.
+                  Eu ajudo pessoas exaustas a se reconectarem com o próprio eixo e recuperarem a saúde emocional antes do colapso. Um processo terapêutico profundo, sistêmico e sem promessas mágicas.
                 </p>
               </Reveal>
 
@@ -166,7 +166,7 @@ export default function App() {
           <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-24 items-start">
             <div>
               <Reveal>
-                <h2 className="text-5xl md:text-6xl mb-8 italic">Você se tornou a mulher que <span className="text-primary italic">"dá conta de tudo"...</span> mas a que preço?</h2>
+                <h2 className="text-5xl md:text-6xl mb-8 italic">Você se tornou a pessoa que <span className="text-primary italic">"dá conta de tudo"...</span> mas a que preço?</h2>
               </Reveal>
               <Reveal delay={0.2}>
                 <p className="text-xl text-text-muted leading-relaxed">
@@ -265,7 +265,7 @@ export default function App() {
                     Eu calei por fora porque, por anos, calei por dentro. Engoli emoções, carreguei pesos que não eram meus e ignorei cada sinal de cansaço para "ser forte".
                   </p>
                   <p>
-                    Hoje, uso minha experiência clínica e sistêmica para guiar mulheres no caminho de volta para si mesmas. Não como alguém que leu sobre a dor, mas como alguém que sobreviveu a ela.
+                    Hoje, uso minha experiência clínica e sistêmica para guiar pessoas no caminho de volta para si mesmas. Não como alguém que leu sobre a dor, mas como alguém que sobreviveu a ela.
                   </p>
                 </div>
                 <div className="mt-8 flex flex-wrap gap-4">
@@ -410,7 +410,7 @@ export default function App() {
       <section className="py-32 px-6 lg:px-24 bg-white">
         <div className="max-w-7xl mx-auto">
           <Reveal>
-            <h2 className="text-5xl md:text-7xl mb-24 italic text-center font-serif text-primary">Mulheres que <span className="text-accent italic">reencontraram o próprio eixo.</span></h2>
+            <h2 className="text-5xl md:text-7xl mb-24 italic text-center font-serif text-primary">Pessoas que <span className="text-accent italic">reencontraram o próprio eixo.</span></h2>
           </Reveal>
 
           <div className="grid md:grid-cols-3 gap-8">
