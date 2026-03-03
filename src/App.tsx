@@ -133,7 +133,7 @@ export default function App() {
 
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]">
                   <img
-                    src="/src/assets/hero_placeholder.png"
+                    src="https://i.imgur.com/W5IG5ad.jpeg"
                     alt="Renata Gusmão Alves"
                     className="w-full h-full object-cover aspect-[4/5] scale-105"
                   />
@@ -238,7 +238,7 @@ export default function App() {
             <Reveal className="order-2 lg:order-1 relative">
               <div className="relative">
                 <img
-                  src="/src/assets/bio_placeholder.png"
+                  src="https://i.imgur.com/xVhxjQY.jpeg"
                   alt="Renata Gusmão Alves"
                   className="rounded-[3rem] shadow-premium object-cover aspect-[4/5] w-full"
                 />
