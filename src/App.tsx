@@ -413,21 +413,20 @@ export default function App() {
             <h2 className="text-5xl md:text-7xl mb-24 italic text-center font-serif text-primary">Pessoas que <span className="text-accent italic">reencontraram o próprio eixo.</span></h2>
           </Reveal>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 items-start">
             {[
-              "Eu finalmente entendi que não precisava carregar o mundo nas costas. A terapia me trouxe uma paz que eu não sentia há anos.",
-              "Descobrir o meu lugar na minha própria família mudou tudo. Hoje me sinto leve, sem aquela culpa constante que me consumia.",
-              "A Renata me ajudou a atravessar o momento mais escuro da minha vida. O processo não é fácil, mas a leveza que vem depois vale cada lágrima."
-            ].map((text, i) => (
+              "https://i.imgur.com/8NQpgd6.jpeg",
+              "https://i.imgur.com/J40J5X2.jpeg",
+              "https://i.imgur.com/H7nkOC5.jpeg"
+            ].map((imgSrc, i) => (
               <Reveal key={i} delay={0.2 + (i * 0.2)}>
-                <div className="bg-bg-surface p-12 rounded-[3rem] border border-primary/5 h-full relative group">
-                  <div className="text-accent text-6xl font-serif absolute top-4 left-6 opacity-20 transition-opacity group-hover:opacity-40">"</div>
-                  <p className="text-xl text-text-muted italic relative z-10 mt-6 leading-relaxed">"{text}"</p>
-                  <div className="mt-10 flex items-center gap-4">
-                    <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-serif text-xl">
-                      {String.fromCharCode(65 + i)}
-                    </div>
-                    <span className="text-sm font-bold uppercase tracking-[0.2em] text-text-muted">Paciente Anônima</span>
+                <div className="bg-bg-surface p-2 rounded-[3rem] border border-primary/5 relative group shadow-premium hover:-translate-y-2 hover:shadow-2xl transition-all duration-500">
+                  <div className="rounded-[2.5rem] overflow-hidden">
+                    <img 
+                      src={imgSrc} 
+                      alt={`Depoimento ${i + 1}`} 
+                      className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
+                    />
                   </div>
                 </div>
               </Reveal>
